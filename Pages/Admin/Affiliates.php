@@ -4,7 +4,7 @@ namespace Modules\SiteManager\Pages\Checkout\Admin;
 
 use Source\Model\Site;
 
-class Affiliates extends \Modules\Checkout\Pages\Admin\Affiliates {
+class Affiliates extends \lightningsdk\checkout\Pages\Admin\Affiliates {
     protected function getAffiliatesDueQuery() {
         $query = parent::getAffiliatesDueQuery();
         $query['from']['where'] = [
