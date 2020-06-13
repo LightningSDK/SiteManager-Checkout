@@ -1,0 +1,9 @@
+{
+  "name": "lightningsdk/sitemanager-checkout",
+  "type": "library",
+  "description": "Makes checkout multisite compatible.",
+  "version": "1.0.0",
+  "requires": [
+    "lightningsdk/sitemanager"
+  ]
+}
