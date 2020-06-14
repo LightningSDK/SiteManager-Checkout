@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\SiteManager\Pages\Checkout;
+namespace lightningsdk\sitemanager_checkout\Pages\Checkout;
 
 use Source\Model\Site;
 
