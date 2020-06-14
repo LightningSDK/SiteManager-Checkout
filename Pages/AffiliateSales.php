@@ -2,7 +2,7 @@
 
 namespace lightningsdk\sitemanager_checkout\Pages\Checkout;
 
-use Source\Model\Site;
+use lightningsdk\Model\Site;
 
 class AffiliateSales extends \lightningsdk\checkout\Pages\AffiliateSales {
     protected function getOrdersQuery($user) {

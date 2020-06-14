@@ -2,7 +2,7 @@
 
 namespace lightningsdk\sitemanager_checkout\Model;
 
-use Source\Model\Site;
+use lightningsdk\Model\Site;
 
 class AffiliatePayment extends \lightningsdk\checkout\Model\AffiliatePaymentOverridable {
     public function __construct($data = []) {

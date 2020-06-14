@@ -2,7 +2,7 @@
 
 namespace lightningsdk\sitemanager_checkout\Model;
 
-use Source\Model\Site;
+use lightningsdk\Model\Site;
 
 class Category extends \lightningsdk\checkout\Model\CategoryOverridable {
     public function __construct($data = []) {

@@ -5,7 +5,7 @@ namespace lightningsdk\sitemanager_checkout\Model;
 use lightningsdk\core\Tools\ClientUser;
 use lightningsdk\core\Tools\Database;
 use lightningsdk\core\Tools\Session\DBSession;
-use Source\Model\Site;
+use lightningsdk\Model\Site;
 
 class Order extends \lightningsdk\checkout\Model\OrderOverridable {
     public function __construct($data = []) {

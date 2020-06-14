@@ -2,7 +2,7 @@
 
 namespace lightningsdk\sitemanager_checkout\Pages\Admin;
 
-use Source\Model\Site;
+use lightningsdk\Model\Site;
 
 class Orders extends \lightningsdk\checkout\Pages\Admin\Orders {
     protected function initSettings() {
