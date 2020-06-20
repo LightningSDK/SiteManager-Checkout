@@ -2,12 +2,10 @@
 
 namespace lightningsdk\sitemanager_checkout\Model;
 
-use lightningsdk\core\Tools\ClientUser;
-use lightningsdk\core\Tools\Database;
-use lightningsdk\core\Tools\Session\DBSession;
-use lightningsdk\Model\Site;
+use lightningsdk\checkout\Model\OrderCore;
+use lightningsdk\sitemanager\Model\Site;
 
-class Order extends \lightningsdk\checkout\Model\OrderOverridable {
+class Order extends OrderCore {
     public function __construct($data = []) {
         parent::__construct($data);
         $this->site_id = Site::getInstance()->id;

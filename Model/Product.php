@@ -2,9 +2,10 @@
 
 namespace lightningsdk\sitemanager_checkout\Model;
 
-use lightningsdk\Model\Site;
+use lightningsdk\checkout\Model\ProductCore;
+use lightningsdk\sitemanager\Model\Site;
 
-class Product extends \lightningsdk\checkout\Model\ProductOverridable {
+class Product extends ProductCore {
     public function __construct($data = []) {
         parent::__construct($data);
         $this->site_id = Site::getInstance()->id;

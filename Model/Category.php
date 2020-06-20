@@ -2,9 +2,10 @@
 
 namespace lightningsdk\sitemanager_checkout\Model;
 
-use lightningsdk\Model\Site;
+use lightningsdk\checkout\Model\CategoryCore;
+use lightningsdk\sitemanager\Model\Site;
 
-class Category extends \lightningsdk\checkout\Model\CategoryOverridable {
+class Category extends CategoryCore {
     public function __construct($data = []) {
         parent::__construct($data);
         $this->site_id = Site::getInstance()->id;
